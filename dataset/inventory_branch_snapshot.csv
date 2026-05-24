@@ -1,0 +1,61 @@
+sku,product_name,category,branch,stock_units,aging_days,sales_last_30_days,reorder_level,supplier_lead_time_days,unit_cost_inr,last_receipt_date,preferred_supplier,reserved_for_contract_customer
+OFF-PAPER-R01,Premium Recycled A4 Paper Reams,Office Supplies,Mumbai,1200,18,480,200,3,320,2026-05-06,PaperMill India Pvt Ltd,No
+PNTR-COFFEE-02,Arabica Ground Coffee 500g,Pantry Supplies,Bangalore,18,22,96,25,5,750,2026-05-02,NorthBrew Supplies,Yes
+CLN-FLOOR-01,Industrial Floor Cleaner 5L,Cleaning Supplies,Delhi,85,35,40,30,4,580,2026-04-19,CleanCore Distributors,No
+ELEC-KB-BT-04,Wireless Bluetooth Keyboard,Electronics,Mumbai,42,9,28,15,7,1850,2026-05-15,TechLink Wholesale,No
+ERG-CHAIR-EX5,Executive Ergonomic Chair,Furniture,Bangalore,11,54,6,5,14,12500,2026-03-31,WorkFlex Interiors,Yes
+PNTR-TEA-GRN-03,Green Tea Bags Box 100pc,Pantry Supplies,Hyderabad,160,28,65,40,4,420,2026-04-26,NorthBrew Supplies,No
+CLN-DISINF-02,Surface Disinfectant Spray 750ml,Cleaning Supplies,Mumbai,320,12,210,80,3,295,2026-05-12,CleanCore Distributors,No
+OFF-TONER-HP01,HP LaserJet Toner Cartridge Black,Office Supplies,Delhi,8,41,22,12,6,3200,2026-04-13,PrintSolutions Delhi,No
+FAC-TOILROLL-01,Recycled Toilet Rolls Pack 12,Facility Consumables,Bangalore,540,7,310,120,2,185,2026-05-17,FacilPro Supplies,No
+ELEC-USB-CA-07,USB-A to USB-C Cable 1.5m,Electronics,Delhi,74,151,0,20,7,280,2025-12-31,TechLink Wholesale,No
+ERG-FTRST-03,Ergonomic Footrest Adjustable,Furniture,Hyderabad,19,106,4,8,14,2100,2026-01-08,WorkFlex Interiors,No
+CLN-MOP-HD-02,Heavy Duty Mop with Wringer,Cleaning Supplies,Mumbai,28,63,9,10,5,1350,2026-03-21,CleanCore Distributors,No
+PNTR-SUGAR-01,Refined Sugar 1kg Pack,Pantry Supplies,Delhi,380,14,180,100,3,85,2026-05-10,FoodHub Suppliers,No
+OFF-STPLR-01,Heavy Duty Stapler 24/6,Office Supplies,Bangalore,55,88,7,15,7,650,2026-02-26,OfficeMart Wholesale,No
+FAC-AIRFRESH-02,Automatic Air Freshener Dispenser,Facility Consumables,Mumbai,90,33,35,20,5,1100,2026-04-21,FacilPro Supplies,No
+ELEC-WEBCAM-03,HD Webcam 1080p USB,Electronics,Bangalore,6,47,18,10,7,2800,2026-04-07,TechLink Wholesale,No
+OFF-BIND-A4-01,A4 Ring Binder 50mm,Office Supplies,Hyderabad,230,22,55,50,4,220,2026-05-02,OfficeMart Wholesale,No
+CLN-GLOVES-L-01,Disposable Nitrile Gloves Large Box 100,Cleaning Supplies,Delhi,65,8,85,50,3,480,2026-05-16,CleanCore Distributors,Yes
+PNTR-CUPS-D-01,Disposable Paper Cups 200ml Pack 100,Pantry Supplies,Mumbai,450,19,230,100,3,165,2026-05-05,FoodHub Suppliers,No
+ERG-MNTRST-02,Adjustable Monitor Stand Aluminium,Furniture,Delhi,22,72,8,10,10,3400,2026-03-12,WorkFlex Interiors,No
+FAC-HANDWASH-01,Foam Hand Wash Refill 500ml,Facility Consumables,Bangalore,310,11,195,80,3,210,2026-05-13,FacilPro Supplies,Yes
+ELEC-MOUSE-W-02,Wireless Optical Mouse Compact,Electronics,Mumbai,38,31,42,20,7,950,2026-04-23,TechLink Wholesale,No
+OFF-PENS-BLK-01,Black Ballpoint Pens Box 50,Office Supplies,Delhi,180,5,140,60,3,320,2026-05-19,OfficeMart Wholesale,No
+CLN-BINLNR-01,Bin Liners Heavy Duty 90L Pack 25,Cleaning Supplies,Hyderabad,195,16,88,60,3,375,2026-05-08,CleanCore Distributors,No
+PNTR-SNACK-MX-01,Mixed Snack Variety Pack 24pc,Pantry Supplies,Bangalore,40,44,14,20,5,1250,2026-04-10,FoodHub Suppliers,No
+ERG-DSKORG-01,Bamboo Desk Organizer 5-Compartment,Furniture,Mumbai,33,118,2,10,12,1680,2026-01-26,WorkFlex Interiors,No
+FAC-PAPRTWL-01,Multifold Paper Towels Pack 200,Facility Consumables,Delhi,820,9,520,200,2,140,2026-05-15,FacilPro Supplies,No
+ELEC-USHHB-04,4-Port USB 3.0 Hub,Electronics,Bangalore,12,55,10,15,7,780,2026-03-29,TechLink Wholesale,No
+OFF-FILE-PLY-01,Polypropylene A4 Files Pack 10,Office Supplies,Hyderabad,110,38,30,30,5,460,2026-04-16,OfficeMart Wholesale,No
+CLN-SCRUB-01,Heavy Duty Scrub Pads Pack 10,Cleaning Supplies,Mumbai,88,27,52,25,4,220,2026-04-27,CleanCore Distributors,No
+PNTR-MLKPDR-01,Non-Dairy Creamer Powder 500g,Pantry Supplies,Delhi,70,61,12,30,5,680,2026-03-23,FoodHub Suppliers,No
+ERG-CHAIR-MH3,Mid-Back Mesh Office Chair,Furniture,Bangalore,7,82,5,5,14,8900,2026-03-03,WorkFlex Interiors,Yes
+FAC-SMELLBLK-01,Urinal Blocks Citrus Pack 12,Facility Consumables,Mumbai,140,21,60,40,3,310,2026-05-03,FacilPro Supplies,No
+ELEC-LAMP-DK-02,LED Desk Lamp with USB Charging Port,Electronics,Hyderabad,25,48,11,10,8,1450,2026-04-06,TechLink Wholesale,No
+OFF-STAPLES-01,Staple Pins 26/6 Box 5000,Office Supplies,Delhi,340,17,120,80,3,95,2026-05-07,OfficeMart Wholesale,No
+CLN-FLOOR-02,Lavender Floor Cleaner 1L,Cleaning Supplies,Bangalore,200,33,95,50,4,180,2026-04-21,CleanCore Distributors,No
+PNTR-COFFEE-BLK-04,Instant Coffee Sachet Box 50pc,Pantry Supplies,Mumbai,95,52,18,30,5,860,2026-04-02,NorthBrew Supplies,No
+ERG-CSHION-02,Lumbar Support Cushion Memory Foam,Furniture,Delhi,18,95,5,8,10,2250,2026-01-19,WorkFlex Interiors,No
+FAC-MATFLR-01,Anti-Fatigue Floor Mat 90x60cm,Facility Consumables,Bangalore,14,77,3,8,10,1950,2026-03-07,FacilPro Supplies,No
+ELEC-KB-WR-05,USB Wired Keyboard Full Size,Electronics,Mumbai,55,24,30,20,6,1100,2026-04-30,TechLink Wholesale,No
+OFF-WHTBRD-01,Magnetic Whiteboard 90x60cm,Office Supplies,Hyderabad,9,133,0,5,14,4200,2026-01-11,OfficeMart Wholesale,No
+CLN-SPRAYER-01,Trigger Spray Bottle 500ml Pack 6,Cleaning Supplies,Delhi,52,44,22,20,4,320,2026-04-10,CleanCore Distributors,No
+PNTR-TEA-BLK-02,Premium Assam Tea Bags Box 100pc,Pantry Supplies,Bangalore,280,6,160,80,4,380,2026-05-18,NorthBrew Supplies,Yes
+FAC-SOAPBAR-01,Antibacterial Soap Bar Pack 12,Facility Consumables,Mumbai,175,14,105,60,3,280,2026-05-10,FacilPro Supplies,No
+ELEC-EXTCBL-01,6-Outlet Power Strip with Surge,Electronics,Delhi,20,38,14,12,7,1650,2026-04-16,TechLink Wholesale,No
+OFF-NOTEPD-01,A5 Ruled Notepad Pack 5,Office Supplies,Bangalore,430,11,210,100,3,275,2026-05-13,OfficeMart Wholesale,No
+CLN-BIOCLN-01,Bio-Enzyme Drain Cleaner 1L,Cleaning Supplies,Hyderabad,38,88,6,15,6,740,2026-02-26,CleanCore Distributors,No
+ERG-WRSTRT-01,Ergonomic Wrist Rest Gel Pad,Furniture,Mumbai,60,29,26,20,8,680,2026-04-25,WorkFlex Interiors,No
+PNTR-SNACK-NTS-02,Mixed Nuts Pack 200g,Pantry Supplies,Delhi,22,68,8,20,5,450,2026-03-17,FoodHub Suppliers,No
+FAC-DUSTBIN-01,Pedal Dustbin 10L Stainless Steel,Facility Consumables,Bangalore,8,143,0,5,12,2800,2026-01-02,FacilPro Supplies,No
+ELEC-HDMICBL-01,HDMI 2.0 Cable 2m,Electronics,Hyderabad,44,36,22,15,7,520,2026-04-18,TechLink Wholesale,No
+OFF-TONER-BRO01,Brother TN-2280 Toner Cartridge,Office Supplies,Mumbai,5,59,11,10,6,2950,2026-03-25,PrintSolutions Delhi,No
+CLN-PPRMSK-01,3-Ply Disposable Face Masks Pack 50,Cleaning Supplies,Bangalore,120,20,75,40,3,350,2026-05-04,CleanCore Distributors,No
+PNTR-BTLWTR-01,Packaged Mineral Water 1L Pack 12,Pantry Supplies,Mumbai,200,8,380,100,2,240,2026-05-16,FoodHub Suppliers,Yes
+ERG-STOOL-AD-01,Adjustable Drafting Stool,Furniture,Delhi,4,127,0,3,18,6800,2025-12-25,WorkFlex Interiors,No
+FAC-AIRPRF-03,Plug-In Air Purifier Small Room,Facility Consumables,Hyderabad,6,98,3,5,10,3200,2026-01-16,FacilPro Supplies,No
+ELEC-WEBCAM-05,4K Ultra HD Webcam Business,Electronics,Delhi,3,71,2,5,10,6500,2026-03-13,TechLink Wholesale,No
+OFF-MRKR-WB-01,Whiteboard Markers Set of 4 Colours,Office Supplies,Bangalore,185,13,95,50,3,380,2026-05-11,OfficeMart Wholesale,No
+CLN-DEGRSR-01,Heavy Duty Degreaser Concentrate 2L,Cleaning Supplies,Mumbai,48,79,7,15,5,920,2026-03-05,CleanCore Distributors,No
+PNTR-GRNTEA-03,Organic Green Tea Loose Leaf 250g,Pantry Supplies,Hyderabad,35,157,0,15,6,890,2025-12-19,NorthBrew Supplies,No
