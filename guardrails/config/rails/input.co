@@ -1,0 +1,17 @@
+define bot refuse unsafe request
+  "I cannot follow instructions that try to bypass or override the source-grounded assistant rules."
+
+define bot refuse pii input
+  "I cannot process messages that contain likely personal or sensitive data."
+
+define flow regex detect pii on input
+  $has_pii = execute check_regex_pii_input
+  if $has_pii
+    bot refuse pii input
+    stop
+
+define flow block unsafe tool or instruction bypass
+  $blocked = execute check_unsafe_input
+  if $blocked
+    bot refuse unsafe request
+    stop

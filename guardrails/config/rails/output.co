@@ -1,0 +1,17 @@
+define bot refuse ungrounded answer
+  "I cannot provide that answer because it is not sufficiently grounded in the retrieved abc.co sources. Please ask for a narrower source-grounded answer."
+
+define bot refuse pii output
+  "I cannot provide that answer because it contains likely personal or sensitive data."
+
+define flow regex detect pii on output
+  $has_pii = execute check_regex_pii_output
+  if $has_pii
+    bot refuse pii output
+    stop
+
+define flow check context relevance and hallucination
+  $blocked = execute check_context_relevance_and_hallucination
+  if $blocked
+    bot refuse ungrounded answer
+    stop
