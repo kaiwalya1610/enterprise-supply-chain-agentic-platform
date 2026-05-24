@@ -174,6 +174,10 @@ def _evaluate_item(item: Mapping[str, Any], top_k: int) -> Dict[str, Any]:
         "retrieval_eligible": _is_retrieval_eligible(item),
         "retrieval_rank_of_first_expected": _rank_of_first_expected(retrieved_sources, expected_sources),
         "retrieval_recall_at_k": _recall_at_k(retrieved_sources, expected_sources, top_k),
+        "guardrail_context_relevance_score": None,
+        "guardrail_groundedness_score": None,
+        "guardrail_hallucination_detected": None,
+        "guardrail_hallucination_reasons": [],
         "answer": result.answer,
     }
 
