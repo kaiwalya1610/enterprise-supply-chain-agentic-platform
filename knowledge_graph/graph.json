@@ -1,0 +1,4120 @@
+{
+  "schema_version": "1.0",
+  "graph_type": "networkx-compatible-multidigraph",
+  "nodes": [
+    {
+      "id": "Account Manager",
+      "type": "Role",
+      "name": "Account Manager"
+    },
+    {
+      "id": "Bangalore",
+      "type": "Branch",
+      "name": "Bangalore"
+    },
+    {
+      "id": "Branch Operations Lead",
+      "type": "Role",
+      "name": "Branch Operations Lead"
+    },
+    {
+      "id": "CFO",
+      "type": "Role",
+      "name": "CFO"
+    },
+    {
+      "id": "CLN-BINLNR-01",
+      "type": "SKU",
+      "sku": "CLN-BINLNR-01",
+      "product_name": "Bin Liners Heavy Duty 90L Pack 25",
+      "category": "Cleaning Supplies",
+      "branch": "Hyderabad",
+      "stock_units": 195,
+      "aging_days": 16,
+      "sales_last_30_days": 88,
+      "reorder_level": 60,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 375,
+      "last_receipt_date": "2026-05-08",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-BIOCLN-01",
+      "type": "SKU",
+      "sku": "CLN-BIOCLN-01",
+      "product_name": "Bio-Enzyme Drain Cleaner 1L",
+      "category": "Cleaning Supplies",
+      "branch": "Hyderabad",
+      "stock_units": 38,
+      "aging_days": 88,
+      "sales_last_30_days": 6,
+      "reorder_level": 15,
+      "supplier_lead_time_days": 6,
+      "unit_cost_inr": 740,
+      "last_receipt_date": "2026-02-26",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-DEGRSR-01",
+      "type": "SKU",
+      "sku": "CLN-DEGRSR-01",
+      "product_name": "Heavy Duty Degreaser Concentrate 2L",
+      "category": "Cleaning Supplies",
+      "branch": "Mumbai",
+      "stock_units": 48,
+      "aging_days": 79,
+      "sales_last_30_days": 7,
+      "reorder_level": 15,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 920,
+      "last_receipt_date": "2026-03-05",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-DISINF-02",
+      "type": "SKU",
+      "sku": "CLN-DISINF-02",
+      "product_name": "Surface Disinfectant Spray 750ml",
+      "category": "Cleaning Supplies",
+      "branch": "Mumbai",
+      "stock_units": 320,
+      "aging_days": 12,
+      "sales_last_30_days": 210,
+      "reorder_level": 80,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 295,
+      "last_receipt_date": "2026-05-12",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-FLOOR-01",
+      "type": "SKU",
+      "sku": "CLN-FLOOR-01",
+      "product_name": "Industrial Floor Cleaner 5L",
+      "category": "Cleaning Supplies",
+      "branch": "Delhi",
+      "stock_units": 85,
+      "aging_days": 35,
+      "sales_last_30_days": 40,
+      "reorder_level": 30,
+      "supplier_lead_time_days": 4,
+      "unit_cost_inr": 580,
+      "last_receipt_date": "2026-04-19",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-FLOOR-02",
+      "type": "SKU",
+      "sku": "CLN-FLOOR-02",
+      "product_name": "Lavender Floor Cleaner 1L",
+      "category": "Cleaning Supplies",
+      "branch": "Bangalore",
+      "stock_units": 200,
+      "aging_days": 33,
+      "sales_last_30_days": 95,
+      "reorder_level": 50,
+      "supplier_lead_time_days": 4,
+      "unit_cost_inr": 180,
+      "last_receipt_date": "2026-04-21",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-GLOVES-L-01",
+      "type": "SKU",
+      "sku": "CLN-GLOVES-L-01",
+      "product_name": "Disposable Nitrile Gloves Large Box 100",
+      "category": "Cleaning Supplies",
+      "branch": "Delhi",
+      "stock_units": 65,
+      "aging_days": 8,
+      "sales_last_30_days": 85,
+      "reorder_level": 50,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 480,
+      "last_receipt_date": "2026-05-16",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "Yes"
+    },
+    {
+      "id": "CLN-MOP-HD-02",
+      "type": "SKU",
+      "sku": "CLN-MOP-HD-02",
+      "product_name": "Heavy Duty Mop with Wringer",
+      "category": "Cleaning Supplies",
+      "branch": "Mumbai",
+      "stock_units": 28,
+      "aging_days": 63,
+      "sales_last_30_days": 9,
+      "reorder_level": 10,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 1350,
+      "last_receipt_date": "2026-03-21",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-PPRMSK-01",
+      "type": "SKU",
+      "sku": "CLN-PPRMSK-01",
+      "product_name": "3-Ply Disposable Face Masks Pack 50",
+      "category": "Cleaning Supplies",
+      "branch": "Bangalore",
+      "stock_units": 120,
+      "aging_days": 20,
+      "sales_last_30_days": 75,
+      "reorder_level": 40,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 350,
+      "last_receipt_date": "2026-05-04",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-SCRUB-01",
+      "type": "SKU",
+      "sku": "CLN-SCRUB-01",
+      "product_name": "Heavy Duty Scrub Pads Pack 10",
+      "category": "Cleaning Supplies",
+      "branch": "Mumbai",
+      "stock_units": 88,
+      "aging_days": 27,
+      "sales_last_30_days": 52,
+      "reorder_level": 25,
+      "supplier_lead_time_days": 4,
+      "unit_cost_inr": 220,
+      "last_receipt_date": "2026-04-27",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "CLN-SPRAYER-01",
+      "type": "SKU",
+      "sku": "CLN-SPRAYER-01",
+      "product_name": "Trigger Spray Bottle 500ml Pack 6",
+      "category": "Cleaning Supplies",
+      "branch": "Delhi",
+      "stock_units": 52,
+      "aging_days": 44,
+      "sales_last_30_days": 22,
+      "reorder_level": 20,
+      "supplier_lead_time_days": 4,
+      "unit_cost_inr": 320,
+      "last_receipt_date": "2026-04-10",
+      "preferred_supplier": "CleanCore Distributors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "COO",
+      "type": "Role",
+      "name": "COO"
+    },
+    {
+      "id": "COO Office",
+      "type": "Team",
+      "name": "COO Office"
+    },
+    {
+      "id": "COO and CFO",
+      "type": "Role",
+      "name": "COO and CFO"
+    },
+    {
+      "id": "CleanCore Distributors",
+      "type": "Supplier",
+      "name": "CleanCore Distributors"
+    },
+    {
+      "id": "Cleaning Supplies",
+      "type": "Category",
+      "name": "Cleaning Supplies"
+    },
+    {
+      "id": "Company Operations Background",
+      "type": "Document",
+      "name": "Company Operations Background",
+      "source_file": "company_backdrop.md"
+    },
+    {
+      "id": "Customer Communication Playbook",
+      "type": "Policy",
+      "name": "Customer Communication Playbook",
+      "source_file": "customer_communication_playbook.md",
+      "policy_id": "ABC-CS-PLY-002"
+    },
+    {
+      "id": "Customer Success Manager",
+      "type": "Role",
+      "name": "Customer Success Manager"
+    },
+    {
+      "id": "Customer Success Manager and Logistics Manager",
+      "type": "Role",
+      "name": "Customer Success Manager and Logistics Manager"
+    },
+    {
+      "id": "Customer Success Team",
+      "type": "Team",
+      "name": "Customer Success Team"
+    },
+    {
+      "id": "Dead Stock",
+      "type": "KPI",
+      "name": "Dead Stock",
+      "formula": "aging_days > 120 AND sales_last_30_days = 0",
+      "columns": [
+        "aging_days",
+        "sales_last_30_days"
+      ]
+    },
+    {
+      "id": "Delhi",
+      "type": "Branch",
+      "name": "Delhi"
+    },
+    {
+      "id": "Department Head",
+      "type": "Role",
+      "name": "Department Head"
+    },
+    {
+      "id": "ELEC-EXTCBL-01",
+      "type": "SKU",
+      "sku": "ELEC-EXTCBL-01",
+      "product_name": "6-Outlet Power Strip with Surge",
+      "category": "Electronics",
+      "branch": "Delhi",
+      "stock_units": 20,
+      "aging_days": 38,
+      "sales_last_30_days": 14,
+      "reorder_level": 12,
+      "supplier_lead_time_days": 7,
+      "unit_cost_inr": 1650,
+      "last_receipt_date": "2026-04-16",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-HDMICBL-01",
+      "type": "SKU",
+      "sku": "ELEC-HDMICBL-01",
+      "product_name": "HDMI 2.0 Cable 2m",
+      "category": "Electronics",
+      "branch": "Hyderabad",
+      "stock_units": 44,
+      "aging_days": 36,
+      "sales_last_30_days": 22,
+      "reorder_level": 15,
+      "supplier_lead_time_days": 7,
+      "unit_cost_inr": 520,
+      "last_receipt_date": "2026-04-18",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-KB-BT-04",
+      "type": "SKU",
+      "sku": "ELEC-KB-BT-04",
+      "product_name": "Wireless Bluetooth Keyboard",
+      "category": "Electronics",
+      "branch": "Mumbai",
+      "stock_units": 42,
+      "aging_days": 9,
+      "sales_last_30_days": 28,
+      "reorder_level": 15,
+      "supplier_lead_time_days": 7,
+      "unit_cost_inr": 1850,
+      "last_receipt_date": "2026-05-15",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-KB-WR-05",
+      "type": "SKU",
+      "sku": "ELEC-KB-WR-05",
+      "product_name": "USB Wired Keyboard Full Size",
+      "category": "Electronics",
+      "branch": "Mumbai",
+      "stock_units": 55,
+      "aging_days": 24,
+      "sales_last_30_days": 30,
+      "reorder_level": 20,
+      "supplier_lead_time_days": 6,
+      "unit_cost_inr": 1100,
+      "last_receipt_date": "2026-04-30",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-LAMP-DK-02",
+      "type": "SKU",
+      "sku": "ELEC-LAMP-DK-02",
+      "product_name": "LED Desk Lamp with USB Charging Port",
+      "category": "Electronics",
+      "branch": "Hyderabad",
+      "stock_units": 25,
+      "aging_days": 48,
+      "sales_last_30_days": 11,
+      "reorder_level": 10,
+      "supplier_lead_time_days": 8,
+      "unit_cost_inr": 1450,
+      "last_receipt_date": "2026-04-06",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-MOUSE-W-02",
+      "type": "SKU",
+      "sku": "ELEC-MOUSE-W-02",
+      "product_name": "Wireless Optical Mouse Compact",
+      "category": "Electronics",
+      "branch": "Mumbai",
+      "stock_units": 38,
+      "aging_days": 31,
+      "sales_last_30_days": 42,
+      "reorder_level": 20,
+      "supplier_lead_time_days": 7,
+      "unit_cost_inr": 950,
+      "last_receipt_date": "2026-04-23",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-USB-CA-07",
+      "type": "SKU",
+      "sku": "ELEC-USB-CA-07",
+      "product_name": "USB-A to USB-C Cable 1.5m",
+      "category": "Electronics",
+      "branch": "Delhi",
+      "stock_units": 74,
+      "aging_days": 151,
+      "sales_last_30_days": 0,
+      "reorder_level": 20,
+      "supplier_lead_time_days": 7,
+      "unit_cost_inr": 280,
+      "last_receipt_date": "2025-12-31",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-USHHB-04",
+      "type": "SKU",
+      "sku": "ELEC-USHHB-04",
+      "product_name": "4-Port USB 3.0 Hub",
+      "category": "Electronics",
+      "branch": "Bangalore",
+      "stock_units": 12,
+      "aging_days": 55,
+      "sales_last_30_days": 10,
+      "reorder_level": 15,
+      "supplier_lead_time_days": 7,
+      "unit_cost_inr": 780,
+      "last_receipt_date": "2026-03-29",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-WEBCAM-03",
+      "type": "SKU",
+      "sku": "ELEC-WEBCAM-03",
+      "product_name": "HD Webcam 1080p USB",
+      "category": "Electronics",
+      "branch": "Bangalore",
+      "stock_units": 6,
+      "aging_days": 47,
+      "sales_last_30_days": 18,
+      "reorder_level": 10,
+      "supplier_lead_time_days": 7,
+      "unit_cost_inr": 2800,
+      "last_receipt_date": "2026-04-07",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ELEC-WEBCAM-05",
+      "type": "SKU",
+      "sku": "ELEC-WEBCAM-05",
+      "product_name": "4K Ultra HD Webcam Business",
+      "category": "Electronics",
+      "branch": "Delhi",
+      "stock_units": 3,
+      "aging_days": 71,
+      "sales_last_30_days": 2,
+      "reorder_level": 5,
+      "supplier_lead_time_days": 10,
+      "unit_cost_inr": 6500,
+      "last_receipt_date": "2026-03-13",
+      "preferred_supplier": "TechLink Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ERG-CHAIR-EX5",
+      "type": "SKU",
+      "sku": "ERG-CHAIR-EX5",
+      "product_name": "Executive Ergonomic Chair",
+      "category": "Furniture",
+      "branch": "Bangalore",
+      "stock_units": 11,
+      "aging_days": 54,
+      "sales_last_30_days": 6,
+      "reorder_level": 5,
+      "supplier_lead_time_days": 14,
+      "unit_cost_inr": 12500,
+      "last_receipt_date": "2026-03-31",
+      "preferred_supplier": "WorkFlex Interiors",
+      "reserved_for_contract_customer": "Yes"
+    },
+    {
+      "id": "ERG-CHAIR-MH3",
+      "type": "SKU",
+      "sku": "ERG-CHAIR-MH3",
+      "product_name": "Mid-Back Mesh Office Chair",
+      "category": "Furniture",
+      "branch": "Bangalore",
+      "stock_units": 7,
+      "aging_days": 82,
+      "sales_last_30_days": 5,
+      "reorder_level": 5,
+      "supplier_lead_time_days": 14,
+      "unit_cost_inr": 8900,
+      "last_receipt_date": "2026-03-03",
+      "preferred_supplier": "WorkFlex Interiors",
+      "reserved_for_contract_customer": "Yes"
+    },
+    {
+      "id": "ERG-CSHION-02",
+      "type": "SKU",
+      "sku": "ERG-CSHION-02",
+      "product_name": "Lumbar Support Cushion Memory Foam",
+      "category": "Furniture",
+      "branch": "Delhi",
+      "stock_units": 18,
+      "aging_days": 95,
+      "sales_last_30_days": 5,
+      "reorder_level": 8,
+      "supplier_lead_time_days": 10,
+      "unit_cost_inr": 2250,
+      "last_receipt_date": "2026-01-19",
+      "preferred_supplier": "WorkFlex Interiors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ERG-DSKORG-01",
+      "type": "SKU",
+      "sku": "ERG-DSKORG-01",
+      "product_name": "Bamboo Desk Organizer 5-Compartment",
+      "category": "Furniture",
+      "branch": "Mumbai",
+      "stock_units": 33,
+      "aging_days": 118,
+      "sales_last_30_days": 2,
+      "reorder_level": 10,
+      "supplier_lead_time_days": 12,
+      "unit_cost_inr": 1680,
+      "last_receipt_date": "2026-01-26",
+      "preferred_supplier": "WorkFlex Interiors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ERG-FTRST-03",
+      "type": "SKU",
+      "sku": "ERG-FTRST-03",
+      "product_name": "Ergonomic Footrest Adjustable",
+      "category": "Furniture",
+      "branch": "Hyderabad",
+      "stock_units": 19,
+      "aging_days": 106,
+      "sales_last_30_days": 4,
+      "reorder_level": 8,
+      "supplier_lead_time_days": 14,
+      "unit_cost_inr": 2100,
+      "last_receipt_date": "2026-01-08",
+      "preferred_supplier": "WorkFlex Interiors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ERG-MNTRST-02",
+      "type": "SKU",
+      "sku": "ERG-MNTRST-02",
+      "product_name": "Adjustable Monitor Stand Aluminium",
+      "category": "Furniture",
+      "branch": "Delhi",
+      "stock_units": 22,
+      "aging_days": 72,
+      "sales_last_30_days": 8,
+      "reorder_level": 10,
+      "supplier_lead_time_days": 10,
+      "unit_cost_inr": 3400,
+      "last_receipt_date": "2026-03-12",
+      "preferred_supplier": "WorkFlex Interiors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ERG-STOOL-AD-01",
+      "type": "SKU",
+      "sku": "ERG-STOOL-AD-01",
+      "product_name": "Adjustable Drafting Stool",
+      "category": "Furniture",
+      "branch": "Delhi",
+      "stock_units": 4,
+      "aging_days": 127,
+      "sales_last_30_days": 0,
+      "reorder_level": 3,
+      "supplier_lead_time_days": 18,
+      "unit_cost_inr": 6800,
+      "last_receipt_date": "2025-12-25",
+      "preferred_supplier": "WorkFlex Interiors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "ERG-WRSTRT-01",
+      "type": "SKU",
+      "sku": "ERG-WRSTRT-01",
+      "product_name": "Ergonomic Wrist Rest Gel Pad",
+      "category": "Furniture",
+      "branch": "Mumbai",
+      "stock_units": 60,
+      "aging_days": 29,
+      "sales_last_30_days": 26,
+      "reorder_level": 20,
+      "supplier_lead_time_days": 8,
+      "unit_cost_inr": 680,
+      "last_receipt_date": "2026-04-25",
+      "preferred_supplier": "WorkFlex Interiors",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "Electronics",
+      "type": "Category",
+      "name": "Electronics"
+    },
+    {
+      "id": "FAC-AIRFRESH-02",
+      "type": "SKU",
+      "sku": "FAC-AIRFRESH-02",
+      "product_name": "Automatic Air Freshener Dispenser",
+      "category": "Facility Consumables",
+      "branch": "Mumbai",
+      "stock_units": 90,
+      "aging_days": 33,
+      "sales_last_30_days": 35,
+      "reorder_level": 20,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 1100,
+      "last_receipt_date": "2026-04-21",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "FAC-AIRPRF-03",
+      "type": "SKU",
+      "sku": "FAC-AIRPRF-03",
+      "product_name": "Plug-In Air Purifier Small Room",
+      "category": "Facility Consumables",
+      "branch": "Hyderabad",
+      "stock_units": 6,
+      "aging_days": 98,
+      "sales_last_30_days": 3,
+      "reorder_level": 5,
+      "supplier_lead_time_days": 10,
+      "unit_cost_inr": 3200,
+      "last_receipt_date": "2026-01-16",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "FAC-DUSTBIN-01",
+      "type": "SKU",
+      "sku": "FAC-DUSTBIN-01",
+      "product_name": "Pedal Dustbin 10L Stainless Steel",
+      "category": "Facility Consumables",
+      "branch": "Bangalore",
+      "stock_units": 8,
+      "aging_days": 143,
+      "sales_last_30_days": 0,
+      "reorder_level": 5,
+      "supplier_lead_time_days": 12,
+      "unit_cost_inr": 2800,
+      "last_receipt_date": "2026-01-02",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "FAC-HANDWASH-01",
+      "type": "SKU",
+      "sku": "FAC-HANDWASH-01",
+      "product_name": "Foam Hand Wash Refill 500ml",
+      "category": "Facility Consumables",
+      "branch": "Bangalore",
+      "stock_units": 310,
+      "aging_days": 11,
+      "sales_last_30_days": 195,
+      "reorder_level": 80,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 210,
+      "last_receipt_date": "2026-05-13",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "Yes"
+    },
+    {
+      "id": "FAC-MATFLR-01",
+      "type": "SKU",
+      "sku": "FAC-MATFLR-01",
+      "product_name": "Anti-Fatigue Floor Mat 90x60cm",
+      "category": "Facility Consumables",
+      "branch": "Bangalore",
+      "stock_units": 14,
+      "aging_days": 77,
+      "sales_last_30_days": 3,
+      "reorder_level": 8,
+      "supplier_lead_time_days": 10,
+      "unit_cost_inr": 1950,
+      "last_receipt_date": "2026-03-07",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "FAC-PAPRTWL-01",
+      "type": "SKU",
+      "sku": "FAC-PAPRTWL-01",
+      "product_name": "Multifold Paper Towels Pack 200",
+      "category": "Facility Consumables",
+      "branch": "Delhi",
+      "stock_units": 820,
+      "aging_days": 9,
+      "sales_last_30_days": 520,
+      "reorder_level": 200,
+      "supplier_lead_time_days": 2,
+      "unit_cost_inr": 140,
+      "last_receipt_date": "2026-05-15",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "FAC-SMELLBLK-01",
+      "type": "SKU",
+      "sku": "FAC-SMELLBLK-01",
+      "product_name": "Urinal Blocks Citrus Pack 12",
+      "category": "Facility Consumables",
+      "branch": "Mumbai",
+      "stock_units": 140,
+      "aging_days": 21,
+      "sales_last_30_days": 60,
+      "reorder_level": 40,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 310,
+      "last_receipt_date": "2026-05-03",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "FAC-SOAPBAR-01",
+      "type": "SKU",
+      "sku": "FAC-SOAPBAR-01",
+      "product_name": "Antibacterial Soap Bar Pack 12",
+      "category": "Facility Consumables",
+      "branch": "Mumbai",
+      "stock_units": 175,
+      "aging_days": 14,
+      "sales_last_30_days": 105,
+      "reorder_level": 60,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 280,
+      "last_receipt_date": "2026-05-10",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "FAC-TOILROLL-01",
+      "type": "SKU",
+      "sku": "FAC-TOILROLL-01",
+      "product_name": "Recycled Toilet Rolls Pack 12",
+      "category": "Facility Consumables",
+      "branch": "Bangalore",
+      "stock_units": 540,
+      "aging_days": 7,
+      "sales_last_30_days": 310,
+      "reorder_level": 120,
+      "supplier_lead_time_days": 2,
+      "unit_cost_inr": 185,
+      "last_receipt_date": "2026-05-17",
+      "preferred_supplier": "FacilPro Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "FacilPro Supplies",
+      "type": "Supplier",
+      "name": "FacilPro Supplies"
+    },
+    {
+      "id": "Facility Consumables",
+      "type": "Category",
+      "name": "Facility Consumables"
+    },
+    {
+      "id": "Finance Manager",
+      "type": "Role",
+      "name": "Finance Manager"
+    },
+    {
+      "id": "Finance Team",
+      "type": "Team",
+      "name": "Finance Team"
+    },
+    {
+      "id": "FoodHub Suppliers",
+      "type": "Supplier",
+      "name": "FoodHub Suppliers"
+    },
+    {
+      "id": "Furniture",
+      "type": "Category",
+      "name": "Furniture"
+    },
+    {
+      "id": "Hyderabad",
+      "type": "Branch",
+      "name": "Hyderabad"
+    },
+    {
+      "id": "Inventory Aging",
+      "type": "KPI",
+      "name": "Inventory Aging",
+      "formula": "Current Date - Last Receipt Date",
+      "columns": [
+        "aging_days",
+        "last_receipt_date"
+      ]
+    },
+    {
+      "id": "Inventory KPI Guide",
+      "type": "Document",
+      "name": "Inventory KPI Guide",
+      "source_file": "inventory_kpi_guide.md",
+      "policy_id": "ABC-INV-GDE-003"
+    },
+    {
+      "id": "Inventory Planning Team",
+      "type": "Role",
+      "name": "Inventory Planning Team"
+    },
+    {
+      "id": "Logistics Manager",
+      "type": "Role",
+      "name": "Logistics Manager"
+    },
+    {
+      "id": "Logistics Team",
+      "type": "Team",
+      "name": "Logistics Team"
+    },
+    {
+      "id": "Mumbai",
+      "type": "Branch",
+      "name": "Mumbai"
+    },
+    {
+      "id": "NorthBrew Supplies",
+      "type": "Supplier",
+      "name": "NorthBrew Supplies"
+    },
+    {
+      "id": "OFF-BIND-A4-01",
+      "type": "SKU",
+      "sku": "OFF-BIND-A4-01",
+      "product_name": "A4 Ring Binder 50mm",
+      "category": "Office Supplies",
+      "branch": "Hyderabad",
+      "stock_units": 230,
+      "aging_days": 22,
+      "sales_last_30_days": 55,
+      "reorder_level": 50,
+      "supplier_lead_time_days": 4,
+      "unit_cost_inr": 220,
+      "last_receipt_date": "2026-05-02",
+      "preferred_supplier": "OfficeMart Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-FILE-PLY-01",
+      "type": "SKU",
+      "sku": "OFF-FILE-PLY-01",
+      "product_name": "Polypropylene A4 Files Pack 10",
+      "category": "Office Supplies",
+      "branch": "Hyderabad",
+      "stock_units": 110,
+      "aging_days": 38,
+      "sales_last_30_days": 30,
+      "reorder_level": 30,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 460,
+      "last_receipt_date": "2026-04-16",
+      "preferred_supplier": "OfficeMart Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-MRKR-WB-01",
+      "type": "SKU",
+      "sku": "OFF-MRKR-WB-01",
+      "product_name": "Whiteboard Markers Set of 4 Colours",
+      "category": "Office Supplies",
+      "branch": "Bangalore",
+      "stock_units": 185,
+      "aging_days": 13,
+      "sales_last_30_days": 95,
+      "reorder_level": 50,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 380,
+      "last_receipt_date": "2026-05-11",
+      "preferred_supplier": "OfficeMart Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-NOTEPD-01",
+      "type": "SKU",
+      "sku": "OFF-NOTEPD-01",
+      "product_name": "A5 Ruled Notepad Pack 5",
+      "category": "Office Supplies",
+      "branch": "Bangalore",
+      "stock_units": 430,
+      "aging_days": 11,
+      "sales_last_30_days": 210,
+      "reorder_level": 100,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 275,
+      "last_receipt_date": "2026-05-13",
+      "preferred_supplier": "OfficeMart Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-PAPER-R01",
+      "type": "SKU",
+      "sku": "OFF-PAPER-R01",
+      "product_name": "Premium Recycled A4 Paper Reams",
+      "category": "Office Supplies",
+      "branch": "Mumbai",
+      "stock_units": 1200,
+      "aging_days": 18,
+      "sales_last_30_days": 480,
+      "reorder_level": 200,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 320,
+      "last_receipt_date": "2026-05-06",
+      "preferred_supplier": "PaperMill India Pvt Ltd",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-PENS-BLK-01",
+      "type": "SKU",
+      "sku": "OFF-PENS-BLK-01",
+      "product_name": "Black Ballpoint Pens Box 50",
+      "category": "Office Supplies",
+      "branch": "Delhi",
+      "stock_units": 180,
+      "aging_days": 5,
+      "sales_last_30_days": 140,
+      "reorder_level": 60,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 320,
+      "last_receipt_date": "2026-05-19",
+      "preferred_supplier": "OfficeMart Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-STAPLES-01",
+      "type": "SKU",
+      "sku": "OFF-STAPLES-01",
+      "product_name": "Staple Pins 26/6 Box 5000",
+      "category": "Office Supplies",
+      "branch": "Delhi",
+      "stock_units": 340,
+      "aging_days": 17,
+      "sales_last_30_days": 120,
+      "reorder_level": 80,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 95,
+      "last_receipt_date": "2026-05-07",
+      "preferred_supplier": "OfficeMart Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-STPLR-01",
+      "type": "SKU",
+      "sku": "OFF-STPLR-01",
+      "product_name": "Heavy Duty Stapler 24/6",
+      "category": "Office Supplies",
+      "branch": "Bangalore",
+      "stock_units": 55,
+      "aging_days": 88,
+      "sales_last_30_days": 7,
+      "reorder_level": 15,
+      "supplier_lead_time_days": 7,
+      "unit_cost_inr": 650,
+      "last_receipt_date": "2026-02-26",
+      "preferred_supplier": "OfficeMart Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-TONER-BRO01",
+      "type": "SKU",
+      "sku": "OFF-TONER-BRO01",
+      "product_name": "Brother TN-2280 Toner Cartridge",
+      "category": "Office Supplies",
+      "branch": "Mumbai",
+      "stock_units": 5,
+      "aging_days": 59,
+      "sales_last_30_days": 11,
+      "reorder_level": 10,
+      "supplier_lead_time_days": 6,
+      "unit_cost_inr": 2950,
+      "last_receipt_date": "2026-03-25",
+      "preferred_supplier": "PrintSolutions Delhi",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-TONER-HP01",
+      "type": "SKU",
+      "sku": "OFF-TONER-HP01",
+      "product_name": "HP LaserJet Toner Cartridge Black",
+      "category": "Office Supplies",
+      "branch": "Delhi",
+      "stock_units": 8,
+      "aging_days": 41,
+      "sales_last_30_days": 22,
+      "reorder_level": 12,
+      "supplier_lead_time_days": 6,
+      "unit_cost_inr": 3200,
+      "last_receipt_date": "2026-04-13",
+      "preferred_supplier": "PrintSolutions Delhi",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "OFF-WHTBRD-01",
+      "type": "SKU",
+      "sku": "OFF-WHTBRD-01",
+      "product_name": "Magnetic Whiteboard 90x60cm",
+      "category": "Office Supplies",
+      "branch": "Hyderabad",
+      "stock_units": 9,
+      "aging_days": 133,
+      "sales_last_30_days": 0,
+      "reorder_level": 5,
+      "supplier_lead_time_days": 14,
+      "unit_cost_inr": 4200,
+      "last_receipt_date": "2026-01-11",
+      "preferred_supplier": "OfficeMart Wholesale",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "Office Supplies",
+      "type": "Category",
+      "name": "Office Supplies"
+    },
+    {
+      "id": "OfficeMart Wholesale",
+      "type": "Supplier",
+      "name": "OfficeMart Wholesale"
+    },
+    {
+      "id": "Operations Coordinator",
+      "type": "Role",
+      "name": "Operations Coordinator"
+    },
+    {
+      "id": "Operations Team",
+      "type": "Team",
+      "name": "Operations Team"
+    },
+    {
+      "id": "PNTR-BTLWTR-01",
+      "type": "SKU",
+      "sku": "PNTR-BTLWTR-01",
+      "product_name": "Packaged Mineral Water 1L Pack 12",
+      "category": "Pantry Supplies",
+      "branch": "Mumbai",
+      "stock_units": 200,
+      "aging_days": 8,
+      "sales_last_30_days": 380,
+      "reorder_level": 100,
+      "supplier_lead_time_days": 2,
+      "unit_cost_inr": 240,
+      "last_receipt_date": "2026-05-16",
+      "preferred_supplier": "FoodHub Suppliers",
+      "reserved_for_contract_customer": "Yes"
+    },
+    {
+      "id": "PNTR-COFFEE-02",
+      "type": "SKU",
+      "sku": "PNTR-COFFEE-02",
+      "product_name": "Arabica Ground Coffee 500g",
+      "category": "Pantry Supplies",
+      "branch": "Bangalore",
+      "stock_units": 18,
+      "aging_days": 22,
+      "sales_last_30_days": 96,
+      "reorder_level": 25,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 750,
+      "last_receipt_date": "2026-05-02",
+      "preferred_supplier": "NorthBrew Supplies",
+      "reserved_for_contract_customer": "Yes"
+    },
+    {
+      "id": "PNTR-COFFEE-BLK-04",
+      "type": "SKU",
+      "sku": "PNTR-COFFEE-BLK-04",
+      "product_name": "Instant Coffee Sachet Box 50pc",
+      "category": "Pantry Supplies",
+      "branch": "Mumbai",
+      "stock_units": 95,
+      "aging_days": 52,
+      "sales_last_30_days": 18,
+      "reorder_level": 30,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 860,
+      "last_receipt_date": "2026-04-02",
+      "preferred_supplier": "NorthBrew Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "PNTR-CUPS-D-01",
+      "type": "SKU",
+      "sku": "PNTR-CUPS-D-01",
+      "product_name": "Disposable Paper Cups 200ml Pack 100",
+      "category": "Pantry Supplies",
+      "branch": "Mumbai",
+      "stock_units": 450,
+      "aging_days": 19,
+      "sales_last_30_days": 230,
+      "reorder_level": 100,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 165,
+      "last_receipt_date": "2026-05-05",
+      "preferred_supplier": "FoodHub Suppliers",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "PNTR-GRNTEA-03",
+      "type": "SKU",
+      "sku": "PNTR-GRNTEA-03",
+      "product_name": "Organic Green Tea Loose Leaf 250g",
+      "category": "Pantry Supplies",
+      "branch": "Hyderabad",
+      "stock_units": 35,
+      "aging_days": 157,
+      "sales_last_30_days": 0,
+      "reorder_level": 15,
+      "supplier_lead_time_days": 6,
+      "unit_cost_inr": 890,
+      "last_receipt_date": "2025-12-19",
+      "preferred_supplier": "NorthBrew Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "PNTR-MLKPDR-01",
+      "type": "SKU",
+      "sku": "PNTR-MLKPDR-01",
+      "product_name": "Non-Dairy Creamer Powder 500g",
+      "category": "Pantry Supplies",
+      "branch": "Delhi",
+      "stock_units": 70,
+      "aging_days": 61,
+      "sales_last_30_days": 12,
+      "reorder_level": 30,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 680,
+      "last_receipt_date": "2026-03-23",
+      "preferred_supplier": "FoodHub Suppliers",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "PNTR-SNACK-MX-01",
+      "type": "SKU",
+      "sku": "PNTR-SNACK-MX-01",
+      "product_name": "Mixed Snack Variety Pack 24pc",
+      "category": "Pantry Supplies",
+      "branch": "Bangalore",
+      "stock_units": 40,
+      "aging_days": 44,
+      "sales_last_30_days": 14,
+      "reorder_level": 20,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 1250,
+      "last_receipt_date": "2026-04-10",
+      "preferred_supplier": "FoodHub Suppliers",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "PNTR-SNACK-NTS-02",
+      "type": "SKU",
+      "sku": "PNTR-SNACK-NTS-02",
+      "product_name": "Mixed Nuts Pack 200g",
+      "category": "Pantry Supplies",
+      "branch": "Delhi",
+      "stock_units": 22,
+      "aging_days": 68,
+      "sales_last_30_days": 8,
+      "reorder_level": 20,
+      "supplier_lead_time_days": 5,
+      "unit_cost_inr": 450,
+      "last_receipt_date": "2026-03-17",
+      "preferred_supplier": "FoodHub Suppliers",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "PNTR-SUGAR-01",
+      "type": "SKU",
+      "sku": "PNTR-SUGAR-01",
+      "product_name": "Refined Sugar 1kg Pack",
+      "category": "Pantry Supplies",
+      "branch": "Delhi",
+      "stock_units": 380,
+      "aging_days": 14,
+      "sales_last_30_days": 180,
+      "reorder_level": 100,
+      "supplier_lead_time_days": 3,
+      "unit_cost_inr": 85,
+      "last_receipt_date": "2026-05-10",
+      "preferred_supplier": "FoodHub Suppliers",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "PNTR-TEA-BLK-02",
+      "type": "SKU",
+      "sku": "PNTR-TEA-BLK-02",
+      "product_name": "Premium Assam Tea Bags Box 100pc",
+      "category": "Pantry Supplies",
+      "branch": "Bangalore",
+      "stock_units": 280,
+      "aging_days": 6,
+      "sales_last_30_days": 160,
+      "reorder_level": 80,
+      "supplier_lead_time_days": 4,
+      "unit_cost_inr": 380,
+      "last_receipt_date": "2026-05-18",
+      "preferred_supplier": "NorthBrew Supplies",
+      "reserved_for_contract_customer": "Yes"
+    },
+    {
+      "id": "PNTR-TEA-GRN-03",
+      "type": "SKU",
+      "sku": "PNTR-TEA-GRN-03",
+      "product_name": "Green Tea Bags Box 100pc",
+      "category": "Pantry Supplies",
+      "branch": "Hyderabad",
+      "stock_units": 160,
+      "aging_days": 28,
+      "sales_last_30_days": 65,
+      "reorder_level": 40,
+      "supplier_lead_time_days": 4,
+      "unit_cost_inr": 420,
+      "last_receipt_date": "2026-04-26",
+      "preferred_supplier": "NorthBrew Supplies",
+      "reserved_for_contract_customer": "No"
+    },
+    {
+      "id": "Pantry Supplies",
+      "type": "Category",
+      "name": "Pantry Supplies"
+    },
+    {
+      "id": "PaperMill India Pvt Ltd",
+      "type": "Supplier",
+      "name": "PaperMill India Pvt Ltd"
+    },
+    {
+      "id": "PrintSolutions Delhi",
+      "type": "Supplier",
+      "name": "PrintSolutions Delhi"
+    },
+    {
+      "id": "Procurement Approval Policy",
+      "type": "Policy",
+      "name": "Procurement Approval Policy",
+      "source_file": "procurement_approval_policy.md",
+      "policy_id": "ABC-FIN-POL-007"
+    },
+    {
+      "id": "Procurement Request Above ₹15,00,000",
+      "type": "ApprovalThreshold",
+      "name": "Procurement Request Above ₹15,00,000",
+      "min_amount_inr": 1500001,
+      "max_amount_inr": null
+    },
+    {
+      "id": "Procurement Request Up to ₹25,000",
+      "type": "ApprovalThreshold",
+      "name": "Procurement Request Up to ₹25,000",
+      "min_amount_inr": 0,
+      "max_amount_inr": 25000
+    },
+    {
+      "id": "Procurement Request ₹1,00,001 to ₹5,00,000",
+      "type": "ApprovalThreshold",
+      "name": "Procurement Request ₹1,00,001 to ₹5,00,000",
+      "min_amount_inr": 100001,
+      "max_amount_inr": 500000
+    },
+    {
+      "id": "Procurement Request ₹25,001 to ₹1,00,000",
+      "type": "ApprovalThreshold",
+      "name": "Procurement Request ₹25,001 to ₹1,00,000",
+      "min_amount_inr": 25001,
+      "max_amount_inr": 100000
+    },
+    {
+      "id": "Procurement Request ₹5,00,001 to ₹15,00,000",
+      "type": "ApprovalThreshold",
+      "name": "Procurement Request ₹5,00,001 to ₹15,00,000",
+      "min_amount_inr": 500001,
+      "max_amount_inr": 1500000
+    },
+    {
+      "id": "Procurement Team",
+      "type": "Role",
+      "name": "Procurement Team"
+    },
+    {
+      "id": "Reorder Level",
+      "type": "KPI",
+      "name": "Reorder Level",
+      "formula": "Set per SKU per branch based on lead time, sales velocity, and safety stock",
+      "columns": [
+        "stock_units",
+        "reorder_level",
+        "supplier_lead_time_days"
+      ]
+    },
+    {
+      "id": "Sell-Through Rate",
+      "type": "KPI",
+      "name": "Sell-Through Rate",
+      "formula": "Units Sold / Units Received * 100",
+      "columns": [
+        "sales_last_30_days",
+        "stock_units"
+      ]
+    },
+    {
+      "id": "Service Credit Above ₹25,000",
+      "type": "ApprovalThreshold",
+      "name": "Service Credit Above ₹25,000",
+      "max_amount_inr": null
+    },
+    {
+      "id": "Service Credit ₹1 to ₹25,000",
+      "type": "ApprovalThreshold",
+      "name": "Service Credit ₹1 to ₹25,000",
+      "max_amount_inr": 25000
+    },
+    {
+      "id": "Severity 0",
+      "type": "EscalationLevel",
+      "name": "Severity 0",
+      "min_hours": 0,
+      "max_hours": 5.999,
+      "classification": "Monitor Only",
+      "communication_requirement": "No proactive communication required"
+    },
+    {
+      "id": "Severity 1",
+      "type": "EscalationLevel",
+      "name": "Severity 1",
+      "min_hours": 6,
+      "max_hours": 11.999,
+      "classification": "Operations Review",
+      "communication_requirement": "No proactive communication unless customer inquires"
+    },
+    {
+      "id": "Severity 2",
+      "type": "EscalationLevel",
+      "name": "Severity 2",
+      "min_hours": 12,
+      "max_hours": 23.999,
+      "classification": "Branch Lead Notified",
+      "communication_requirement": "Escalation ticket created; optional customer update"
+    },
+    {
+      "id": "Severity 3",
+      "type": "EscalationLevel",
+      "name": "Severity 3",
+      "min_hours": 24,
+      "max_hours": 47.999,
+      "classification": "Logistics Manager Notified",
+      "communication_requirement": "Proactive customer update required"
+    },
+    {
+      "id": "Severity 4",
+      "type": "EscalationLevel",
+      "name": "Severity 4",
+      "min_hours": 48,
+      "max_hours": null,
+      "classification": "Customer Success Escalation",
+      "communication_requirement": "Formal written update required"
+    },
+    {
+      "id": "Shipment Delay Escalation SOP",
+      "type": "Procedure",
+      "name": "Shipment Delay Escalation SOP",
+      "source_file": "shipment_escalation_sop.md",
+      "policy_id": "ABC-OPS-SOP-004"
+    },
+    {
+      "id": "Shipment Delay Over 24 Hours",
+      "type": "Rule",
+      "name": "Shipment Delay Over 24 Hours",
+      "min_hours": 24
+    },
+    {
+      "id": "Shipment Delay Over 48 Hours",
+      "type": "Rule",
+      "name": "Shipment Delay Over 48 Hours",
+      "min_hours": 48
+    },
+    {
+      "id": "Slow-Moving Inventory",
+      "type": "KPI",
+      "name": "Slow-Moving Inventory",
+      "formula": "aging_days > 60 AND sales_last_30_days < 20",
+      "columns": [
+        "aging_days",
+        "sales_last_30_days",
+        "reserved_for_contract_customer"
+      ]
+    },
+    {
+      "id": "Stockout Risk",
+      "type": "KPI",
+      "name": "Stockout Risk",
+      "formula": "stock_units <= reorder_level OR projected demand exceeds supply before lead time ends",
+      "columns": [
+        "stock_units",
+        "reorder_level",
+        "supplier_lead_time_days",
+        "sales_last_30_days"
+      ]
+    },
+    {
+      "id": "Team Lead",
+      "type": "Role",
+      "name": "Team Lead"
+    },
+    {
+      "id": "TechLink Wholesale",
+      "type": "Supplier",
+      "name": "TechLink Wholesale"
+    },
+    {
+      "id": "Three-Quote Requirement",
+      "type": "Rule",
+      "name": "Three-Quote Requirement"
+    },
+    {
+      "id": "WorkFlex Interiors",
+      "type": "Supplier",
+      "name": "WorkFlex Interiors"
+    },
+    {
+      "id": "aging_days",
+      "type": "Rule",
+      "name": "aging_days"
+    },
+    {
+      "id": "last_receipt_date",
+      "type": "Rule",
+      "name": "last_receipt_date"
+    },
+    {
+      "id": "reorder_level",
+      "type": "Rule",
+      "name": "reorder_level"
+    },
+    {
+      "id": "reserved_for_contract_customer",
+      "type": "Rule",
+      "name": "reserved_for_contract_customer"
+    },
+    {
+      "id": "sales_last_30_days",
+      "type": "Rule",
+      "name": "sales_last_30_days"
+    },
+    {
+      "id": "stock_units",
+      "type": "Rule",
+      "name": "stock_units"
+    },
+    {
+      "id": "supplier_lead_time_days",
+      "type": "Rule",
+      "name": "supplier_lead_time_days"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bangalore",
+      "target": "CLN-FLOOR-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "CLN-PPRMSK-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "ELEC-USHHB-04",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "ELEC-WEBCAM-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "ERG-CHAIR-EX5",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "ERG-CHAIR-MH3",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "FAC-DUSTBIN-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "FAC-HANDWASH-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "FAC-MATFLR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "FAC-TOILROLL-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "OFF-MRKR-WB-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "OFF-NOTEPD-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "OFF-STPLR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "PNTR-COFFEE-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "PNTR-SNACK-MX-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Bangalore",
+      "target": "PNTR-TEA-BLK-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-BINLNR-01",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-BINLNR-01",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-BINLNR-01",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-BIOCLN-01",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-BIOCLN-01",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-BIOCLN-01",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-DEGRSR-01",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-DEGRSR-01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-DEGRSR-01",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-DISINF-02",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-DISINF-02",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-DISINF-02",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-FLOOR-01",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-FLOOR-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-FLOOR-01",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-FLOOR-02",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-FLOOR-02",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-FLOOR-02",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-GLOVES-L-01",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-GLOVES-L-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-GLOVES-L-01",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-MOP-HD-02",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-MOP-HD-02",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-MOP-HD-02",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-PPRMSK-01",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-PPRMSK-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-PPRMSK-01",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-SCRUB-01",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-SCRUB-01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-SCRUB-01",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-SPRAYER-01",
+      "target": "Cleaning Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-SPRAYER-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "CLN-SPRAYER-01",
+      "target": "CleanCore Distributors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "COO",
+      "target": "Credits Above ₹25,000",
+      "relationship": "APPROVES",
+      "source_doc": "customer_communication_playbook.md",
+      "section": "Refund and Credit Communication Rules"
+    },
+    {
+      "source": "COO Office",
+      "target": "Company Operations Background",
+      "relationship": "DEFINED_IN",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "COO Office",
+      "target": "COO",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-BINLNR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-BIOCLN-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-DEGRSR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-DISINF-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-FLOOR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-FLOOR-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-GLOVES-L-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-MOP-HD-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-PPRMSK-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-SCRUB-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Cleaning Supplies",
+      "target": "CLN-SPRAYER-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Customer Communication Playbook",
+      "target": "Shipment Delay Escalation SOP",
+      "relationship": "RELATED_TO",
+      "source_doc": "customer_communication_playbook.md",
+      "section": "Shipment Delay Communication Rules"
+    },
+    {
+      "source": "Customer Success Manager",
+      "target": "Delay Over 24 Hours Proactive Update",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "customer_communication_playbook.md",
+      "section": "Shipment Delay Communication Rules"
+    },
+    {
+      "source": "Customer Success Team",
+      "target": "Company Operations Background",
+      "relationship": "DEFINED_IN",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Customer Success Team",
+      "target": "Account Manager",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Customer Success Team",
+      "target": "Customer Success Manager",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Dead Stock",
+      "target": "aging_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Dead Stock"
+    },
+    {
+      "source": "Dead Stock",
+      "target": "sales_last_30_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Dead Stock"
+    },
+    {
+      "source": "Dead Stock",
+      "target": "Inventory KPI Guide",
+      "relationship": "DEFINED_IN",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Dead Stock"
+    },
+    {
+      "source": "Dead Stock",
+      "target": "Inventory Planning Team + Finance",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "KPI Summary Table"
+    },
+    {
+      "source": "Delhi",
+      "target": "CLN-FLOOR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "CLN-GLOVES-L-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "CLN-SPRAYER-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "ELEC-EXTCBL-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "ELEC-USB-CA-07",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "ELEC-WEBCAM-05",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "ERG-CSHION-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "ERG-MNTRST-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "ERG-STOOL-AD-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "FAC-PAPRTWL-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "OFF-PENS-BLK-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "OFF-STAPLES-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "OFF-TONER-HP01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "PNTR-MLKPDR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "PNTR-SNACK-NTS-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Delhi",
+      "target": "PNTR-SUGAR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-EXTCBL-01",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-EXTCBL-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-EXTCBL-01",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-HDMICBL-01",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-HDMICBL-01",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-HDMICBL-01",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-KB-BT-04",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-KB-BT-04",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-KB-BT-04",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-KB-WR-05",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-KB-WR-05",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-KB-WR-05",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-LAMP-DK-02",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-LAMP-DK-02",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-LAMP-DK-02",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-MOUSE-W-02",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-MOUSE-W-02",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-MOUSE-W-02",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-USB-CA-07",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-USB-CA-07",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-USB-CA-07",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-USHHB-04",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-USHHB-04",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-USHHB-04",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-WEBCAM-03",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-WEBCAM-03",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-WEBCAM-03",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-WEBCAM-05",
+      "target": "Electronics",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-WEBCAM-05",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ELEC-WEBCAM-05",
+      "target": "TechLink Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CHAIR-EX5",
+      "target": "Furniture",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CHAIR-EX5",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CHAIR-EX5",
+      "target": "WorkFlex Interiors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CHAIR-MH3",
+      "target": "Furniture",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CHAIR-MH3",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CHAIR-MH3",
+      "target": "WorkFlex Interiors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CSHION-02",
+      "target": "Furniture",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CSHION-02",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-CSHION-02",
+      "target": "WorkFlex Interiors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-DSKORG-01",
+      "target": "Furniture",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-DSKORG-01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-DSKORG-01",
+      "target": "WorkFlex Interiors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-FTRST-03",
+      "target": "Furniture",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-FTRST-03",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-FTRST-03",
+      "target": "WorkFlex Interiors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-MNTRST-02",
+      "target": "Furniture",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-MNTRST-02",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-MNTRST-02",
+      "target": "WorkFlex Interiors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-STOOL-AD-01",
+      "target": "Furniture",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-STOOL-AD-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-STOOL-AD-01",
+      "target": "WorkFlex Interiors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-WRSTRT-01",
+      "target": "Furniture",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-WRSTRT-01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "ERG-WRSTRT-01",
+      "target": "WorkFlex Interiors",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-EXTCBL-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-HDMICBL-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-KB-BT-04",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-KB-WR-05",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-LAMP-DK-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-MOUSE-W-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-USB-CA-07",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-USHHB-04",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-WEBCAM-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Electronics",
+      "target": "ELEC-WEBCAM-05",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-AIRFRESH-02",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-AIRFRESH-02",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-AIRFRESH-02",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-AIRPRF-03",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-AIRPRF-03",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-AIRPRF-03",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-DUSTBIN-01",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-DUSTBIN-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-DUSTBIN-01",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-HANDWASH-01",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-HANDWASH-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-HANDWASH-01",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-MATFLR-01",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-MATFLR-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-MATFLR-01",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-PAPRTWL-01",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-PAPRTWL-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-PAPRTWL-01",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-SMELLBLK-01",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-SMELLBLK-01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-SMELLBLK-01",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-SOAPBAR-01",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-SOAPBAR-01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-SOAPBAR-01",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-TOILROLL-01",
+      "target": "Facility Consumables",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-TOILROLL-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "FAC-TOILROLL-01",
+      "target": "FacilPro Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-AIRFRESH-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-AIRPRF-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-DUSTBIN-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-HANDWASH-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-MATFLR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-PAPRTWL-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-SMELLBLK-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-SOAPBAR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Facility Consumables",
+      "target": "FAC-TOILROLL-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Finance Team",
+      "target": "Service Credit",
+      "relationship": "APPROVES",
+      "source_doc": "customer_communication_playbook.md",
+      "section": "Refund and Credit Communication Rules"
+    },
+    {
+      "source": "Finance Team",
+      "target": "Company Operations Background",
+      "relationship": "DEFINED_IN",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Finance Team",
+      "target": "CFO",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Finance Team",
+      "target": "Finance Manager",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Furniture",
+      "target": "ERG-CHAIR-EX5",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Furniture",
+      "target": "ERG-CHAIR-MH3",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Furniture",
+      "target": "ERG-CSHION-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Furniture",
+      "target": "ERG-DSKORG-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Furniture",
+      "target": "ERG-FTRST-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Furniture",
+      "target": "ERG-MNTRST-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Furniture",
+      "target": "ERG-STOOL-AD-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Furniture",
+      "target": "ERG-WRSTRT-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "CLN-BINLNR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "CLN-BIOCLN-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "ELEC-HDMICBL-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "ELEC-LAMP-DK-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "ERG-FTRST-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "FAC-AIRPRF-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "OFF-BIND-A4-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "OFF-FILE-PLY-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "OFF-WHTBRD-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "PNTR-GRNTEA-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Hyderabad",
+      "target": "PNTR-TEA-GRN-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Inventory Aging",
+      "target": "aging_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Inventory Aging"
+    },
+    {
+      "source": "Inventory Aging",
+      "target": "last_receipt_date",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Inventory Aging"
+    },
+    {
+      "source": "Inventory Aging",
+      "target": "Inventory KPI Guide",
+      "relationship": "DEFINED_IN",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Inventory Aging"
+    },
+    {
+      "source": "Inventory Aging",
+      "target": "Inventory Planning Team",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "KPI Summary Table"
+    },
+    {
+      "source": "Inventory Planning Team",
+      "target": "Company Operations Background",
+      "relationship": "DEFINED_IN",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Inventory Planning Team",
+      "target": "Inventory Planning Team",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Logistics Team",
+      "target": "Company Operations Background",
+      "relationship": "DEFINED_IN",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Logistics Team",
+      "target": "Logistics Manager",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Mumbai",
+      "target": "CLN-DEGRSR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "CLN-DISINF-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "CLN-MOP-HD-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "CLN-SCRUB-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "ELEC-KB-BT-04",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "ELEC-KB-WR-05",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "ELEC-MOUSE-W-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "ERG-DSKORG-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "ERG-WRSTRT-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "FAC-AIRFRESH-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "FAC-SMELLBLK-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "FAC-SOAPBAR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "OFF-PAPER-R01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "OFF-TONER-BRO01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "PNTR-BTLWTR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "PNTR-COFFEE-BLK-04",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Mumbai",
+      "target": "PNTR-CUPS-D-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-BIND-A4-01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-BIND-A4-01",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-BIND-A4-01",
+      "target": "OfficeMart Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-FILE-PLY-01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-FILE-PLY-01",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-FILE-PLY-01",
+      "target": "OfficeMart Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-MRKR-WB-01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-MRKR-WB-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-MRKR-WB-01",
+      "target": "OfficeMart Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-NOTEPD-01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-NOTEPD-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-NOTEPD-01",
+      "target": "OfficeMart Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-PAPER-R01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-PAPER-R01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-PAPER-R01",
+      "target": "PaperMill India Pvt Ltd",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-PENS-BLK-01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-PENS-BLK-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-PENS-BLK-01",
+      "target": "OfficeMart Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-STAPLES-01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-STAPLES-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-STAPLES-01",
+      "target": "OfficeMart Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-STPLR-01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-STPLR-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-STPLR-01",
+      "target": "OfficeMart Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-TONER-BRO01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-TONER-BRO01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-TONER-BRO01",
+      "target": "PrintSolutions Delhi",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-TONER-HP01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-TONER-HP01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-TONER-HP01",
+      "target": "PrintSolutions Delhi",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-WHTBRD-01",
+      "target": "Office Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-WHTBRD-01",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "OFF-WHTBRD-01",
+      "target": "OfficeMart Wholesale",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-BIND-A4-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-FILE-PLY-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-MRKR-WB-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-NOTEPD-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-PAPER-R01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-PENS-BLK-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-STAPLES-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-STPLR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-TONER-BRO01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-TONER-HP01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Office Supplies",
+      "target": "OFF-WHTBRD-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Operations Team",
+      "target": "Company Operations Background",
+      "relationship": "DEFINED_IN",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Operations Team",
+      "target": "Branch Operations Lead",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Operations Team",
+      "target": "Operations Coordinator",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "PNTR-BTLWTR-01",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-BTLWTR-01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-BTLWTR-01",
+      "target": "FoodHub Suppliers",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-COFFEE-02",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-COFFEE-02",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-COFFEE-02",
+      "target": "NorthBrew Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-COFFEE-BLK-04",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-COFFEE-BLK-04",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-COFFEE-BLK-04",
+      "target": "NorthBrew Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-CUPS-D-01",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-CUPS-D-01",
+      "target": "Mumbai",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-CUPS-D-01",
+      "target": "FoodHub Suppliers",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-GRNTEA-03",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-GRNTEA-03",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-GRNTEA-03",
+      "target": "NorthBrew Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-MLKPDR-01",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-MLKPDR-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-MLKPDR-01",
+      "target": "FoodHub Suppliers",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SNACK-MX-01",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SNACK-MX-01",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SNACK-MX-01",
+      "target": "FoodHub Suppliers",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SNACK-NTS-02",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SNACK-NTS-02",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SNACK-NTS-02",
+      "target": "FoodHub Suppliers",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SUGAR-01",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SUGAR-01",
+      "target": "Delhi",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-SUGAR-01",
+      "target": "FoodHub Suppliers",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-TEA-BLK-02",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-TEA-BLK-02",
+      "target": "Bangalore",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-TEA-BLK-02",
+      "target": "NorthBrew Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-TEA-GRN-03",
+      "target": "Pantry Supplies",
+      "relationship": "BELONGS_TO_CATEGORY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-TEA-GRN-03",
+      "target": "Hyderabad",
+      "relationship": "STOCKED_AT",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "PNTR-TEA-GRN-03",
+      "target": "NorthBrew Supplies",
+      "relationship": "SUPPLIED_BY",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-BTLWTR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-COFFEE-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-COFFEE-BLK-04",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-CUPS-D-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-GRNTEA-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-MLKPDR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-SNACK-MX-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-SNACK-NTS-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-SUGAR-01",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-TEA-BLK-02",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Pantry Supplies",
+      "target": "PNTR-TEA-GRN-03",
+      "relationship": "HAS_SKU",
+      "source_doc": "inventory_branch_snapshot.csv",
+      "section": "CSV row"
+    },
+    {
+      "source": "Procurement Approval Policy",
+      "target": "Procurement Approval Policy",
+      "relationship": "DEFINED_IN",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Document Control"
+    },
+    {
+      "source": "Procurement Request Above ₹15,00,000",
+      "target": "Procurement Approval Policy",
+      "relationship": "DEFINED_IN",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request Above ₹15,00,000",
+      "target": "COO and CFO",
+      "relationship": "REQUIRES_APPROVAL_FROM",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request Up to ₹25,000",
+      "target": "Procurement Approval Policy",
+      "relationship": "DEFINED_IN",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request Up to ₹25,000",
+      "target": "Team Lead",
+      "relationship": "REQUIRES_APPROVAL_FROM",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request ₹1,00,001 to ₹5,00,000",
+      "target": "Procurement Approval Policy",
+      "relationship": "DEFINED_IN",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request ₹1,00,001 to ₹5,00,000",
+      "target": "Finance Manager",
+      "relationship": "REQUIRES_APPROVAL_FROM",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request ₹25,001 to ₹1,00,000",
+      "target": "Procurement Approval Policy",
+      "relationship": "DEFINED_IN",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request ₹25,001 to ₹1,00,000",
+      "target": "Department Head",
+      "relationship": "REQUIRES_APPROVAL_FROM",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request ₹5,00,001 to ₹15,00,000",
+      "target": "Procurement Approval Policy",
+      "relationship": "DEFINED_IN",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Request ₹5,00,001 to ₹15,00,000",
+      "target": "CFO",
+      "relationship": "REQUIRES_APPROVAL_FROM",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Approval Threshold Matrix"
+    },
+    {
+      "source": "Procurement Team",
+      "target": "Company Operations Background",
+      "relationship": "DEFINED_IN",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Procurement Team",
+      "target": "Procurement Team",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "company_backdrop.md",
+      "section": "Core Teams"
+    },
+    {
+      "source": "Reorder Level",
+      "target": "reorder_level",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Reorder Level"
+    },
+    {
+      "source": "Reorder Level",
+      "target": "stock_units",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Reorder Level"
+    },
+    {
+      "source": "Reorder Level",
+      "target": "supplier_lead_time_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Reorder Level"
+    },
+    {
+      "source": "Reorder Level",
+      "target": "Inventory KPI Guide",
+      "relationship": "DEFINED_IN",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Reorder Level"
+    },
+    {
+      "source": "Reorder Level",
+      "target": "Inventory Planning Team",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "KPI Summary Table"
+    },
+    {
+      "source": "Sell-Through Rate",
+      "target": "sales_last_30_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Sell-Through Rate"
+    },
+    {
+      "source": "Sell-Through Rate",
+      "target": "stock_units",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Sell-Through Rate"
+    },
+    {
+      "source": "Sell-Through Rate",
+      "target": "Inventory KPI Guide",
+      "relationship": "DEFINED_IN",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Sell-Through Rate"
+    },
+    {
+      "source": "Sell-Through Rate",
+      "target": "Inventory Planning Team",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "KPI Summary Table"
+    },
+    {
+      "source": "Service Credit Above ₹25,000",
+      "target": "COO",
+      "relationship": "REQUIRES_APPROVAL_FROM",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Remediation and Service Credit Rules"
+    },
+    {
+      "source": "Service Credit ₹1 to ₹25,000",
+      "target": "Finance Manager",
+      "relationship": "REQUIRES_APPROVAL_FROM",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Remediation and Service Credit Rules"
+    },
+    {
+      "source": "Severity 0",
+      "target": "Shipment Delay Escalation SOP",
+      "relationship": "DEFINED_IN",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 0",
+      "target": "Operations Coordinator",
+      "relationship": "ESCALATES_TO",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 1",
+      "target": "Shipment Delay Escalation SOP",
+      "relationship": "DEFINED_IN",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 1",
+      "target": "Operations Coordinator",
+      "relationship": "ESCALATES_TO",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 2",
+      "target": "Shipment Delay Escalation SOP",
+      "relationship": "DEFINED_IN",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 2",
+      "target": "Branch Operations Lead",
+      "relationship": "ESCALATES_TO",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 3",
+      "target": "Shipment Delay Escalation SOP",
+      "relationship": "DEFINED_IN",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 3",
+      "target": "Logistics Manager",
+      "relationship": "ESCALATES_TO",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 3",
+      "target": "Customer Success Proactive Communication",
+      "relationship": "REQUIRES",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Escalation Timeline"
+    },
+    {
+      "source": "Severity 3",
+      "target": "Escalation Ticket",
+      "relationship": "REQUIRES",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Escalation Timeline"
+    },
+    {
+      "source": "Severity 4",
+      "target": "Shipment Delay Escalation SOP",
+      "relationship": "DEFINED_IN",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 4",
+      "target": "Customer Success Manager and Logistics Manager",
+      "relationship": "ESCALATES_TO",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Delay Severity Classification"
+    },
+    {
+      "source": "Severity 4",
+      "target": "Service Credit Review",
+      "relationship": "RELATED_TO",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Remediation and Service Credit Rules"
+    },
+    {
+      "source": "Severity 4",
+      "target": "Formal Written Customer Update",
+      "relationship": "REQUIRES",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Escalation Timeline"
+    },
+    {
+      "source": "Shipment Delay Over 24 Hours",
+      "target": "Severity 3",
+      "relationship": "TRIGGERS",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Escalation Timeline"
+    },
+    {
+      "source": "Shipment Delay Over 48 Hours",
+      "target": "Severity 4",
+      "relationship": "TRIGGERS",
+      "source_doc": "shipment_escalation_sop.md",
+      "section": "Escalation Timeline"
+    },
+    {
+      "source": "Slow-Moving Inventory",
+      "target": "aging_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Slow-Moving Inventory"
+    },
+    {
+      "source": "Slow-Moving Inventory",
+      "target": "reserved_for_contract_customer",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Slow-Moving Inventory"
+    },
+    {
+      "source": "Slow-Moving Inventory",
+      "target": "sales_last_30_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Slow-Moving Inventory"
+    },
+    {
+      "source": "Slow-Moving Inventory",
+      "target": "Inventory KPI Guide",
+      "relationship": "DEFINED_IN",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Slow-Moving Inventory"
+    },
+    {
+      "source": "Slow-Moving Inventory",
+      "target": "Inventory Planning Team",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "KPI Summary Table"
+    },
+    {
+      "source": "Stockout Risk",
+      "target": "reorder_level",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Stockout Risk"
+    },
+    {
+      "source": "Stockout Risk",
+      "target": "sales_last_30_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Stockout Risk"
+    },
+    {
+      "source": "Stockout Risk",
+      "target": "stock_units",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Stockout Risk"
+    },
+    {
+      "source": "Stockout Risk",
+      "target": "supplier_lead_time_days",
+      "relationship": "CALCULATED_FROM",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Stockout Risk"
+    },
+    {
+      "source": "Stockout Risk",
+      "target": "Inventory KPI Guide",
+      "relationship": "DEFINED_IN",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "Stockout Risk"
+    },
+    {
+      "source": "Stockout Risk",
+      "target": "Inventory Planning Team + Operations",
+      "relationship": "RESPONSIBLE_FOR",
+      "source_doc": "inventory_kpi_guide.md",
+      "section": "KPI Summary Table"
+    },
+    {
+      "source": "Three-Quote Requirement",
+      "target": "Procurement Request Above ₹1,00,000",
+      "relationship": "APPLIES_TO",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Three-Quote Requirement"
+    },
+    {
+      "source": "Three-Quote Requirement",
+      "target": "Procurement Approval Policy",
+      "relationship": "DEFINED_IN",
+      "source_doc": "procurement_approval_policy.md",
+      "section": "Three-Quote Requirement"
+    }
+  ]
+}

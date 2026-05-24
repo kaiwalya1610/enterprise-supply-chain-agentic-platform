@@ -205,6 +205,7 @@ tempCodeRunnerFile.py
 
 # Local RAG indexes and OS metadata
 .chroma/
+knowledge_graph/viz/
 .DS_Store
 
 # Ruff stuff:
