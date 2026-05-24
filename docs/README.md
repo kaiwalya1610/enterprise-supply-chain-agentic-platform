@@ -8,6 +8,7 @@ Mermaid-first dry runs for the supply-chain Q&A prototype. Read in order.
 | [02-low-level-dry-run.md](./02-low-level-dry-run.md) | Parallel retrieval traces and legacy route traces with dummy values |
 | [03-bootstrap-pipeline.md](./03-bootstrap-pipeline.md) | Offline build: graph export, Chroma index, eval loop |
 | [04-guardrails-and-grounding.md](./04-guardrails-and-grounding.md) | Input/output guardrails, grounding scores, hallucination detection |
+| [05-future-scope.md](./05-future-scope.md) | Future scope: UI uploads, access control, caching, eval data, fine-tuning |
 
 **Entry points**
 
