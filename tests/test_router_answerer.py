@@ -27,3 +27,11 @@ def test_prompt_injection_appendix_is_treated_as_artifact():
     assert "test artifact" in result.answer.lower()
     assert "not an operational policy" in result.answer.lower()
     assert "guardrail" in result.answer.lower()
+
+
+def test_reorder_point_policy_question_routes_to_inventory_kpi_guide():
+    result = answer_question("What are our reorder point policies?")
+
+    assert result.route == "rag_policy"
+    assert any(citation.source_file == "inventory_kpi_guide.md" for citation in result.citations)
+    assert "Reorder Level" in result.answer

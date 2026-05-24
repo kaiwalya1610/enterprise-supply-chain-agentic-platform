@@ -1,6 +1,7 @@
-from src.models import SourceChunk
+from src.models import GraphFact, SourceChunk
 from src.openrouter_client import RerankResult
-from src.retriever import DocumentRetriever
+from src import retriever as retriever_module
+from src.retriever import DocumentRetriever, retrieve_parallel_context
 
 
 class FakeOpenRouterClient:
@@ -63,3 +64,72 @@ def test_missing_openrouter_key_uses_lexical_fallback(monkeypatch):
     assert retriever.semantic_available is False
     assert "Semantic retrieval unavailable" in retriever.warning
     assert results
+
+
+def test_parallel_context_merges_eligible_source_families(monkeypatch):
+    submitted = []
+
+    class ImmediateFuture:
+        def __init__(self, value):
+            self.value = value
+
+        def result(self):
+            return self.value
+
+    class RecordingExecutor:
+        def __init__(self, max_workers):
+            self.max_workers = max_workers
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, exc_type, exc, traceback):
+            return False
+
+        def submit(self, fn):
+            submitted.append(fn.__name__)
+            return ImmediateFuture(fn())
+
+    class FakeDocumentRetriever:
+        warning = None
+        chunks = []
+
+        def search(self, query, top_k, include_security_artifacts=False):
+            return [
+                SourceChunk(
+                    id="doc-1",
+                    text="Reorder level is calculated from stock and demand signals.",
+                    source_file="inventory_kpi_guide.md",
+                    section_heading="Reorder Level",
+                    section_path="Inventory KPI Guide > Reorder Level",
+                    start_line=10,
+                    end_line=15,
+                    document_id="inventory-kpi-guide",
+                )
+            ]
+
+        def _search_lexical_fallback(self, query, top_k):
+            return []
+
+    def fake_graph_facts_for_question(question):
+        return [
+            GraphFact(
+                subject="Reorder Level",
+                relationship="USES_COLUMN",
+                object="stock_units",
+                source="inventory_kpi_guide.md",
+            )
+        ]
+
+    monkeypatch.setattr(retriever_module, "ThreadPoolExecutor", RecordingExecutor)
+    monkeypatch.setattr(retriever_module, "DocumentRetriever", FakeDocumentRetriever)
+    monkeypatch.setattr("knowledge_graph.graph_queries.graph_facts_for_question", fake_graph_facts_for_question)
+
+    bundle = retrieve_parallel_context("Which SKUs are below reorder level in the inventory snapshot CSV?")
+
+    assert set(submitted) == {"fetch_graph", "fetch_docs", "fetch_structured"}
+    assert bundle.route == "hybrid"
+    assert bundle.graph_facts
+    assert bundle.doc_chunks
+    assert bundle.structured_result
+    assert any(citation.source_file == "inventory_branch_snapshot.csv" for citation in bundle.citations)
