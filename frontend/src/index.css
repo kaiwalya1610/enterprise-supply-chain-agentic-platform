@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --aui-thread-max-width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  background: #0a0a0a;
+  color: #e4e4e4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+  ::selection {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@layer components {
+  .aui-md p {
+    @apply my-2;
+  }
+  .aui-md h1,
+  .aui-md h2,
+  .aui-md h3 {
+    @apply text-surface-50 font-display font-semibold mt-5 mb-2;
+  }
+  .aui-md h1 {
+    @apply text-lg font-bold;
+  }
+  .aui-md h2 {
+    @apply text-base;
+  }
+  .aui-md h3 {
+    @apply text-sm font-medium;
+  }
+  .aui-md strong {
+    @apply text-surface-100;
+  }
+  .aui-md em {
+    @apply text-surface-300;
+  }
+  .aui-md code {
+    @apply text-surface-200 bg-surface-800 px-1.5 py-0.5 rounded text-xs font-mono border border-surface-700/50;
+  }
+  .aui-md pre {
+    @apply bg-surface-900 rounded-lg p-4 overflow-x-auto border border-surface-800 my-3;
+  }
+  .aui-md pre code {
+    @apply bg-transparent border-0 p-0 text-surface-300;
+  }
+  .aui-md ul {
+    @apply list-disc pl-5 my-2;
+  }
+  .aui-md ol {
+    @apply list-decimal pl-5 my-2;
+  }
+  .aui-md li {
+    @apply my-1;
+  }
+  .aui-md a {
+    @apply text-surface-100 underline underline-offset-2 decoration-surface-500 hover:decoration-surface-300;
+  }
+  .aui-md blockquote {
+    @apply border-l-2 border-surface-700 pl-4 italic text-surface-400 my-3;
+  }
+  .aui-md hr {
+    @apply border-surface-800 my-4;
+  }
+
+  .aui-md table {
+    @apply w-full border-collapse my-4 text-xs;
+  }
+  .aui-md .aui-table-scroll {
+    @apply my-4 overflow-x-auto rounded-lg border border-surface-800/80;
+  }
+  .aui-md .aui-table-scroll table {
+    @apply my-0 min-w-full;
+  }
+  .aui-md thead {
+    @apply border-b border-surface-700;
+  }
+  .aui-md th {
+    @apply text-left px-3 py-2.5 font-display font-semibold text-surface-200 bg-surface-900;
+  }
+  .aui-md th:first-child {
+    @apply rounded-tl-lg;
+  }
+  .aui-md th:last-child {
+    @apply rounded-tr-lg;
+  }
+  .aui-md tbody tr {
+    @apply border-b border-surface-800/80 transition-colors;
+  }
+  .aui-md tbody tr:hover {
+    @apply bg-surface-800/40;
+  }
+  .aui-md tbody tr:last-child {
+    @apply border-b-0;
+  }
+  .aui-md td {
+    @apply px-3 py-2.5 text-surface-300 align-top;
+  }
+}
+
+@layer utilities {
+  .ring-subtle {
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06);
+  }
+}
