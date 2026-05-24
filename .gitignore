@@ -203,6 +203,10 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Local RAG indexes and OS metadata
+.chroma/
+.DS_Store
+
 # Ruff stuff:
 .ruff_cache/
 
